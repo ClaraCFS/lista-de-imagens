@@ -1,0 +1,44 @@
+.titulo{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.autor{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pintura{
+    width: 335px;
+    /* height: 431.177px; */
+    flex-shrink: 0;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.info{
+    position: absolute;
+    bottom: 33px;
+    left: 25px;
+    z-index: 1;
+    color: #FFF;
+    font-family: Public Sans;
+}
+
+li{
+    list-style: none;
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
